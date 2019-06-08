@@ -38,11 +38,12 @@ header nav a{
 
 }
 header nav a.active {
-	background: #fed136;
+	background: #3352FF;
 	border-radius: 3px;
 }
 #inicio {
 	text-align: center;
+	width: 100%;
 	padding: 200px 0 150px;
 
 }
@@ -68,22 +69,18 @@ header nav a.active {
 	margin-left: auto;
 	margin-right: auto;
 }
-#bdias .box{
-	display: inline-block;
+#nosotros .box{
+	
 	text-align: center;
-	width: 33%;
-	padding: 10px;
-}
-#video {
-	background-color: black;
-	text-align: center;
-	padding: 35px 0;
-}
-#carta .box{
-	display: inline-block;
-	text-align: justify;
-	width: 45%;
+	width: 100%;
 	padding: 20px;
+	margin-top: 40px;
+}
+#caso {
+	text-align: center;
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../images/Background2.jpg') no-repeat center top;
+	background-size:  cover;
+	color: white;
 }
 footer {
 	padding: 30px 0;
